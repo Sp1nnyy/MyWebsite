@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		@font-face {
+		font-family: hl;
+		src: url(fonts/hl.ttf);
+		}
+		
+		@font-face {
+		font-family: titilium;
+		src: url(fonts/titilium.ttf);
+		}
+		
+		@keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+
+		/* Firefox < 16 */
+		@-moz-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+
+		/* Safari, Chrome and Opera > 12.1 */
+		@-webkit-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+
+		/* Internet Explorer */
+		@-ms-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+
+		/* Opera < 12.1 */
+		@-o-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+		
+		
+	
+		h1 {opacity: 0; color: DimGray; font-family: titilium; font-size: 64px;
+		animation-name: fadein;
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
+		}
+		
+		p {opacity: 0; color: DimGray; font-family: titilium; font-size: 32px;
+		animation-name: fadein;
+		animation-duration: 2s;
+		animation-delay: 1.5s;
+		animation-fill-mode: forwards;
+		}
+		
+		a1  {opacity: 0; 
+		animation-name: fadein;
+		animation-duration: 2s;
+		animation-delay: 3s;
+		animation-fill-mode: forwards;
+
+		}
+
+	</style>
+	<body style="background-color:White;">
+		<center><h1>Polar Project</h1></center>
+		<center><p>By Trevor Spiniolas</p></center>
+		<center><a1><a href="polar2.html"><img src="beginbutton.png" alt="" height="188" width="250"></a></center>
+	</body>
+</html>
